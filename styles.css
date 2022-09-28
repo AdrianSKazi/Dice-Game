@@ -1,0 +1,105 @@
+body {
+  background-color: #393E46;
+  color: orange;
+  text-align: center;
+  padding: 5% 10%;
+  height: 100vh;
+  font-family: 'Bungee Spice', cursive;
+}
+
+
+/* title */
+
+.title-container {
+}
+
+.title {
+  display: inline-block;
+}
+
+.flag {
+  width: 8%;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.dices-section {
+  padding-top: 10%;
+}
+
+.dice-box-left {
+  position: relative;
+}
+
+.dice-box-right {
+  position: relative;
+}
+
+.dice {
+  width: 300px;
+  height: 300px;
+  background-color: #CE1212;
+  border-radius: 10%;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border-style: solid;
+  border-width: 30px;
+  border-color: #CE1212;
+}
+
+/* dot */
+
+.dot {
+  background-color: white;
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.one {
+
+}
+
+.two {
+  left: 80%;
+}
+
+.three {
+  top: 40%;
+}
+
+.four {
+  top: 40%;
+  left: 40%;
+}
+
+.five {
+  top: 40%;
+  left: 80%;
+}
+
+.six {
+  top: 80%;
+}
+
+.seven {
+  top: 80%;
+  left: 80%;
+}
+
+/* button */
+
+.button-container {
+  margin-top: 8%;
+}
+
+.button-icon {
+  width: 100px;
+  opacity: 80%;
+}
+
+.button-icon:hover {
+  opacity: 100%;
+}
